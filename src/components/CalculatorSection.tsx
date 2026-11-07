@@ -121,14 +121,14 @@ export const CalculatorSection: React.FC<CalculatorSectionProps> = ({
   const handleCopyQuickWhatsapp = () => {
     let text = '';
     if (activeMode === 'odontopediatria') {
-      text = `🦷 *Dra. Nayanne Gomes · Odontopediatria IMIP*\n\n`;
+      text = `🦷 *Dra. Nayanne Gomes · Odontopediatra (CRO/PE 18440)*\n\n`;
       text += `⚖️ *Peso da criança:* ${childWeightKg} kg\n`;
       text += `💊 *Medicamento:* ${activePedMed.presentationTitle}\n`;
       text += `👉 *Dose Calculada:* ${pedResult.doseDisplay}\n`;
       text += `⏰ *Posologia:* ${pedResult.posology}\n\n`;
       text += `ℹ️ *Orientações:* ${pedResult.details}\n`;
     } else {
-      text = `🦷 *Dra. Nayanne Gomes · Prescrição Odontológica*\n\n`;
+      text = `🦷 *Dra. Nayanne Gomes · Prescrição Odontológica (CRO/PE 18440)*\n\n`;
       text += `💊 *Medicamento:* ${activeAdultMed.name}\n`;
       text += `🏷️ *Nomes Comerciais:* ${activeAdultMed.commercialNames}\n`;
       text += `⏰ *Posologia:* ${activeAdultMed.posology}\n\n`;

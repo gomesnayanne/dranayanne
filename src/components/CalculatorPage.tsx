@@ -75,7 +75,7 @@ export const CalculatorPage: React.FC<CalculatorPageProps> = ({
                   Dra. Nayanne Gomes
                 </span>
                 <span className="hidden md:inline-block text-[10px] uppercase font-bold text-rose-600 bg-rose-50 px-2 py-0.5 rounded-full border border-rose-200">
-                  CRO/PE 9949
+                  CRO/PE 18440
                 </span>
               </div>
               <p className="text-[11px] sm:text-xs text-slate-500 font-semibold hidden sm:block">
@@ -139,7 +139,7 @@ export const CalculatorPage: React.FC<CalculatorPageProps> = ({
           
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-pink-100/80 border border-pink-200 text-pink-800 text-xs font-bold tracking-wide">
             <Sparkles className="w-3.5 h-3.5 text-pink-600" />
-            <span>Ferramenta Clínica Oficial · Odontopediatria IMIP</span>
+            <span>Ferramenta Clínica Oficial · Dra. Nayanne Gomes (CRO/PE 18440)</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-800 tracking-tight leading-tight">
@@ -211,7 +211,7 @@ export const CalculatorPage: React.FC<CalculatorPageProps> = ({
         </div>
 
         <p className="text-xs text-slate-400 font-semibold">
-          © {new Date().getFullYear()} Dra. Nayanne Gomes · Especialista em Odontopediatria IMIP · Recife, São Lourenço e Jaboatão dos Guararapes (PE)
+          © {new Date().getFullYear()} Dra. Nayanne Gomes · Cirurgiã-Dentista CRO/PE 18440 · Especialização em Odontopediatria pelo IMIP · Recife, Jaboatão e São Lourenço da Mata (PE)
         </p>
 
       </footer>

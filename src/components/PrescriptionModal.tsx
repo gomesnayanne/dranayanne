@@ -31,7 +31,7 @@ export const PrescriptionModal: React.FC<PrescriptionModalProps> = ({
   });
 
   const generateWhatsappText = () => {
-    let text = `🦷 *RECEITUÁRIO ODONTOPEDIÁTRICO - DR NAYANNE*\n`;
+    let text = `🦷 *RECEITUÁRIO ODONTOPEDIÁTRICO - DRA. NAYANNE GOMES*\n`;
     text += `⚖️ *Peso da Criança:* ${patientWeightKg} kg\n`;
     text += `📆 *Data:* ${todayStr}\n\n`;
     text += `📋 *PRESCRIÇÃO MEDICAMENTOSA:*\n`;
@@ -52,7 +52,7 @@ export const PrescriptionModal: React.FC<PrescriptionModalProps> = ({
       text += `• Qualquer dúvida, entre em contato conosco!\n\n`;
     }
 
-    text += `✨ _Dra. Nayanne · Cirurgiã-Dentista · Odontopediatria_`;
+    text += `✨ _Dra. Nayanne Gomes · Cirurgiã-Dentista Odontopediatra · CRO/PE 18440_`;
     return text;
   };
 
@@ -81,7 +81,7 @@ export const PrescriptionModal: React.FC<PrescriptionModalProps> = ({
               <h2 className="text-base sm:text-lg font-black text-slate-800 tracking-tight leading-none">
                 Receituário Odontológico
               </h2>
-              <span className="text-[11px] font-semibold text-pink-700">Dra. Nayanne · Odontopediatria</span>
+              <span className="text-[11px] font-semibold text-pink-700">Dra. Nayanne Gomes · CRO/PE 18440</span>
             </div>
           </div>
           <button
@@ -98,10 +98,10 @@ export const PrescriptionModal: React.FC<PrescriptionModalProps> = ({
           {/* Printable Header */}
           <div className="border-b border-pink-100 pb-3 text-center">
             <h1 className="text-xl sm:text-2xl font-black text-slate-800 tracking-tight uppercase">
-              Dra. Nayanne
+              Dra. Nayanne Gomes
             </h1>
             <p className="text-xs sm:text-sm font-bold text-pink-600 uppercase tracking-wider">
-              Cirurgiã-Dentista · Odontopediatria Especializada
+              Cirurgiã-Dentista · Odontopediatra · CRO/PE 18440
             </p>
             <div className="text-[11px] text-slate-500 font-medium mt-0.5">
               Atendimento Odontológico Humanizado para Bebês, Crianças e Adolescentes
@@ -227,8 +227,8 @@ export const PrescriptionModal: React.FC<PrescriptionModalProps> = ({
           {/* Signature Line for Print */}
           <div className="hidden print:block mt-12 text-center">
             <div className="w-64 border-t border-slate-800 mx-auto mb-1"></div>
-            <strong className="text-sm font-black block text-slate-900">Dra. Nayanne</strong>
-            <span className="text-xs text-slate-600">Cirurgiã-Dentista · Odontopediatria</span>
+            <strong className="text-sm font-black block text-slate-900">Dra. Nayanne Gomes</strong>
+            <span className="text-xs text-slate-600">Cirurgiã-Dentista · Odontopediatra · CRO/PE 18440</span>
           </div>
         </div>
 

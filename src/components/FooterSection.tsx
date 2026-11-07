@@ -11,9 +11,9 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onOpenCalculator }
   )}`;
 
   const locations = [
-    { city: 'Recife - PE', detail: 'Atendimento Clínico & Hospitalar Especializado' },
-    { city: 'São Lourenço - PE', detail: 'Consultório Odontopediátrico Acolhedor' },
-    { city: 'Jaboatão dos Guararapes - PE', detail: 'Atendimento Infantil & Pacientes Especiais' }
+    { city: 'Recife - PE', detail: 'Consultório Odontopediátrico & Sedação Consciente' },
+    { city: 'Jaboatão dos Guararapes - PE', detail: 'Atendimento Infantil, Bebês & Pacientes Especiais (PNE/TEA)' },
+    { city: 'São Lourenço da Mata - PE', detail: 'Consultório Odontopediátrico Acolhedor & Sem Medo' }
   ];
 
   return (
@@ -68,10 +68,10 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onOpenCalculator }
                   <div>
                     <span className="block text-[11px] font-bold text-slate-800 uppercase tracking-wider">Locais de Atendimento</span>
                     <p className="font-extrabold text-slate-900 text-sm">
-                      Recife · São Lourenço · Jaboatão dos Guararapes
+                      Recife · Jaboatão dos Guararapes · São Lourenço da Mata
                     </p>
                     <p className="text-[12px] text-slate-800 font-normal leading-relaxed pt-0.5">
-                      Pernambuco (PE) · Atendimento com hora marcada
+                      Região Metropolitana do Recife (PE) · CRO/PE 18440 · Hora marcada
                     </p>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onOpenCalculator }
                       Cidades de Atendimento (PE)
                     </h4>
                     <p className="text-[11px] text-slate-500">
-                      Região Metropolitana do Recife e Mata Norte
+                      Região Metropolitana do Recife (RMR)
                     </p>
                   </div>
 
@@ -160,7 +160,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onOpenCalculator }
 
           {/* Bottom Copyright & Calculator link */}
           <div className="pt-10 text-center text-xs text-slate-900/80 font-semibold border-t border-white/20 mt-8 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <p>© {new Date().getFullYear()} Dra. Nayanne Gomes · Cirurgiã-Dentista · CRO/PE · Odontopediatria IMIP</p>
+            <p>© {new Date().getFullYear()} Dra. Nayanne Gomes · Cirurgiã-Dentista · CRO/PE 18440 · Especialização em Odontopediatria pelo IMIP</p>
             {onOpenCalculator && (
               <button
                 type="button"

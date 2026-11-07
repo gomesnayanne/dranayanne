@@ -55,6 +55,15 @@ export default function App() {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
+  // Update document title dynamically for SEO & user navigation clarity
+  useEffect(() => {
+    if (currentPage === 'calculator') {
+      document.title = 'Calculadora de Doses Pediátricas | Dra. Nayanne Gomes · CRO/PE 18440';
+    } else {
+      document.title = 'Dra. Nayanne Gomes | Odontopediatra em Recife e Região · Dentista Infantil (CRO/PE 18440)';
+    }
+  }, [currentPage]);
+
   const navigateToCalculator = () => {
     setCurrentPage('calculator');
     window.location.hash = '#calculadora';

@@ -35,7 +35,9 @@ export const AboutSection: React.FC = () => {
               <div className="rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-slate-100">
                 <img
                   src="./assets/aistudio/WhatsApp_Image_2026-11-07_at_10.24.36_3e1f84bb.jpeg"
-                  alt="Dra. Nayanne Gomes Odontopediatra Especialista IMIP"
+                  alt="Dra. Nayanne Gomes - Cirurgiã-Dentista CRO/PE 18440 com especialização em Odontopediatria pelo IMIP"
+                  loading="lazy"
+                  decoding="async"
                   referrerPolicy="no-referrer"
                   className="w-full h-auto object-cover max-h-[480px]"
                 />
@@ -47,19 +49,24 @@ export const AboutSection: React.FC = () => {
           {/* Right Column: Bio & Storytelling */}
           <div className="lg:col-span-7 space-y-5 text-left">
             
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-800 tracking-tight leading-tight">
-              Conheça a Dra. <span className="text-rose-500">Nayanne Gomes</span>
-            </h2>
+            <div className="space-y-1">
+              <span className="text-xs font-extrabold uppercase tracking-wider text-rose-500 block">
+                Cirurgiã-Dentista · CRO/PE 18440
+              </span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-800 tracking-tight leading-tight">
+                Conheça a Dra. <span className="text-rose-500">Nayanne Gomes</span>
+              </h2>
+            </div>
 
             <div className="space-y-4 text-xs sm:text-sm text-slate-600 font-normal leading-relaxed">
               <p>
-                Sou cirurgiã-dentista com especialização e residência em Odontopediatria pelo <strong>Instituto de Medicina Integral Professor Fernando Figueira (IMIP)</strong>, centro hospitalar de excelência nacional.
+                Sou cirurgiã-dentista (<strong>CRO/PE 18440</strong>) com especialização em Odontopediatria realizada no <strong>Instituto de Medicina Integral Professor Fernando Figueira (IMIP)</strong>, instituição de referência nacional em saúde infantil.
               </p>
               <p>
-                Possuo capacitação dedicada a <strong>Pacientes com Necessidades Especiais (PNE)</strong> e habilitação certificada em <strong>Sedação Consciente Inalatória com Óxido Nitroso</strong> e <strong>Laserterapia</strong>.
+                Possuo capacitação dedicada a <strong>Pacientes com Necessidades Especiais (PNE, TEA/Autismo e síndromes)</strong> e habilitação certificada em <strong>Sedação Consciente Inalatória com Óxido Nitroso</strong> e <strong>Laserterapia Odontológica</strong>.
               </p>
               <p>
-                Atendimento clínico em consultórios estruturados em <strong>Recife</strong>, <strong>São Lourenço</strong> e <strong>Jaboatão dos Guararapes (PE)</strong>. Minha missão é transformar a consulta odontológica em um espaço de acolhimento seguro, onde o medo não tem lugar e cada criança descobre o prazer de sorrir com saúde.
+                Realizo atendimentos clínicos em consultórios preparados e acolhedores em <strong>Recife</strong>, <strong>Jaboatão dos Guararapes</strong> e <strong>São Lourenço da Mata (PE)</strong>, recebendo famílias de toda a Região Metropolitana do Recife. Minha missão é transformar a consulta odontológica infantil em um espaço seguro, leve e sem medo, onde cada criança descobre o prazer de sorrir com saúde.
               </p>
             </div>
 

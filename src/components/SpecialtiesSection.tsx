@@ -85,10 +85,13 @@ export const SpecialtiesSection: React.FC = () => {
       <div className="max-w-5xl mx-auto">
         
         {/* Section Heading from Reference Image */}
-        <div className="text-center mb-10 sm:mb-14">
+        <div className="text-center mb-10 sm:mb-14 space-y-2">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight text-white">
             Odontopediatria Completa
           </h2>
+          <p className="text-xs sm:text-sm text-sky-100 font-medium max-w-2xl mx-auto">
+            Tratamentos odontológicos infantis humanizados, preventivos e sem dor em Recife e Região Metropolitana
+          </p>
         </div>
 
         {/* 2-Column Grid with Stitched Dashed White Cards (Exact match to reference) */}

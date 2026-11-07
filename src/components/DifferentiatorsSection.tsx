@@ -64,8 +64,8 @@ export const DifferentiatorsSection: React.FC = () => {
     {
       bg: 'bg-[#AE90C4]',
       textColor: 'text-slate-800',
-      title: 'Especialista em Odontopediatria (IMIP)',
-      desc: 'Residência e especialização dedicadas exclusivamente ao sorriso infantil pelo IMIP. De bebês a crianças com necessidades especiais, cada paciente que passa pela minha cadeira leva um pouquinho de toda a experiência e dedicação que construí na minha formação.',
+      title: 'Especialização em Odontopediatria pelo IMIP',
+      desc: 'Formação de especialista dedicada ao sorriso infantil concluída no IMIP, referência nacional em saúde materno-infantil. De bebês a crianças com necessidades especiais, cada paciente recebe no consultório toda a experiência técnica e dedicação construídas na minha especialização.',
       icon: (
         <svg className="w-9 h-9 stroke-slate-800 mb-3" viewBox="0 0 36 36" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M8 28 L22 14" strokeWidth="3" />

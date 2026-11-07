@@ -10,28 +10,28 @@ export const FaqSection: React.FC = () => {
 
   const faqs = [
     {
-      q: 'Onde a Dra. Nayanne realiza os atendimentos em Pernambuco?',
-      a: 'A Dra. Nayanne atende em consultórios preparados e acolhedores em Recife - PE, São Lourenço - PE e Jaboatão dos Guararapes - PE. Os agendamentos e horários disponíveis são centralizados pelo WhatsApp oficial (81) 99859-1848.'
+      q: 'Onde a Dra. Nayanne Gomes atende como odontopediatra em Recife e Região?',
+      a: 'A Dra. Nayanne Gomes (CRO/PE 18440) atende em consultórios preparados e acolhedores em Recife - PE, Jaboatão dos Guararapes - PE e São Lourenço da Mata - PE, recebendo famílias de toda a Região Metropolitana do Recife. Os agendamentos são centralizados pelo WhatsApp oficial (81) 99859-1848.'
     },
     {
-      q: 'Crianças com necessidades especiais precisam de um dentista diferente?',
-      a: 'Sim. A odontopediatria para pacientes com necessidades especiais (PNE) exige preparo técnico específico, manejo sensorial (controle de luzes e sons), adaptação de tempo e comunicação afetiva para respeitar os limites de cada criança.'
+      q: 'A Dra. Nayanne atende crianças autistas (TEA) e com necessidades especiais (PNE)?',
+      a: 'Sim. A odontopediatria para pacientes com necessidades especiais (PNE), autismo (TEA), TDAH e síndromes exige preparo específico, manejo sensorial (controle de luzes e sons), tempo estendido e comunicação afetiva para respeitar o ritmo de cada criança.'
     },
     {
-      q: 'Por que crianças em tratamento oncológico precisam de dentista?',
-      a: 'Durante a quimioterapia ou radioterapia, a imunidade diminui e podem surgir lesões orais dolorosas, como a mucosite. A odontopediatra previne infecções bucais e utiliza laserterapia para aliviar dores e cicatrizar lesões rapidamente.'
+      q: 'Como é o atendimento para crianças com medo de dentista e sedação consciente?',
+      a: 'Trabalhamos com consultas sem pressa, linguagem lúdica e dessensibilização gradual. Quando indicado, utilizamos a sedação consciente inalatória com óxido nitroso ("ar mágico"), que relaxa a criança em minutos de forma segura e sem anestesia geral.'
     },
     {
-      q: 'O que é laserterapia odontológica e para que serve?',
-      a: 'É a aplicação de luz terapêutica totalmente indolor que acelera a cicatrização dos tecidos, alivia aftas, herpes e pós-operatórios, com ação anti-inflamatória e analgésica imediata sem remédios agressivos.'
+      q: 'Com que idade levar o bebê ao odontopediatra e fazer avaliação da linguinha?',
+      a: 'O ideal é já nos primeiros meses de vida (para avaliação do freio lingual / cirurgia da linguinha a laser e amamentação) ou no nascimento do primeiro dentinho, por volta dos 6 meses, garantindo prevenção precoce Cárie Zero.'
     },
     {
-      q: 'Com que idade levar o bebê ao odontopediatra pela primeira vez?',
-      a: 'O recomendado é no nascimento do primeiro dentinho (por volta dos 6 meses) ou até o primeiro ano de vida. Isso garante prevenção precoce de cáries e orienta sobre amamentação e teste da linguinha.'
+      q: 'Por que crianças em tratamento oncológico precisam de acompanhamento odontopediátrico?',
+      a: 'Durante tratamentos médicos delicados como quimioterapia ou radioterapia, a imunidade cai e podem surgir lesões dolorosas como a mucosite oral. A odontopediatra previne focos de infecção e aplica laserterapia indolor para alívio rápido e cicatrização.'
     },
     {
-      q: 'Como é o atendimento para crianças com medo de dentista?',
-      a: 'Trabalhamos com consultas sem pressa, linguagem lúdica e desensibilização gradual. Quando necessário, a sedação consciente inalatória com óxido nitroso relaxa a criança em minutos, sem anestesia geral.'
+      q: 'O que é laserterapia odontológica infantil e para que serve?',
+      a: 'É a aplicação de luz terapêutica totalmente indolor que acelera a cicatrização dos tecidos, alivia aftas, estomatites, herpes e pós-operatório de frenectomia, com ação anti-inflamatória e analgésica imediata.'
     }
   ];
 

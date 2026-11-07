@@ -43,7 +43,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               Dra. Nayanne Gomes
             </span>
             <span className="text-[11px] font-semibold text-rose-500 tracking-wide mt-0.5">
-              Odontopediatria · IMIP
+              Odontopediatra · CRO/PE 18440
             </span>
           </div>
         </a>

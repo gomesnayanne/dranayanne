@@ -30,7 +30,9 @@ export const WhyChooseSection: React.FC = () => {
               <div className="rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-slate-100">
                 <img
                   src="./assets/aistudio/WhatsApp_Image_2026-11-07_at_10.26.24_b7ce61de.jpeg"
-                  alt="Dra. Nayanne Gomes no atendimento acolhedor no consultório"
+                  alt="Dra. Nayanne Gomes - Dentista Infantil e Odontopediatra em Recife e Região no consultório"
+                  loading="lazy"
+                  decoding="async"
                   referrerPolicy="no-referrer"
                   className="w-full h-auto object-cover max-h-[480px]"
                 />
@@ -54,7 +56,7 @@ export const WhyChooseSection: React.FC = () => {
                 É assim que eu atendo. Com calma, com clareza e com aquele acolhimento que faz a criança confiar e os pais respirarem aliviados. Eu explico tudo de um jeito simples, sem termos difíceis, e faço questão de que a família inteira saia do consultório segura e sem dúvidas.
               </p>
               <p>
-                Sou cirurgiã-dentista especialista em Odontopediatria pelo IMIP, Capacitada em Pacientes com Necessidades Especiais (PNE) e Habilitada em Sedação Consciente Inalatória (Óxido Nitroso) e Laserterapia. Atendo bebês, crianças com e sem medo, pacientes especiais e crianças que precisam de atenção médica delicada. Mas o que eu mais gosto de ouvir é uma mãe dizendo que o filho saiu da consulta pedindo pra voltar.
+                Sou cirurgiã-dentista (CRO/PE 18440) com especialização em Odontopediatria pelo IMIP, Capacitada em Pacientes com Necessidades Especiais (PNE, TEA/Autismo e síndromes) e Habilitada em Sedação Consciente Inalatória (Óxido Nitroso) e Laserterapia. Atendo em Recife, Jaboatão dos Guararapes e São Lourenço da Mata bebês, crianças com e sem medo, pacientes especiais e crianças que precisam de atenção médica delicada. Mas o que eu mais gosto de ouvir é uma mãe dizendo que o filho saiu da consulta pedindo pra voltar.
               </p>
             </div>
 

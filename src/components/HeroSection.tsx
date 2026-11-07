@@ -81,13 +81,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenCalculator }) =>
           <div className="lg:col-span-6 space-y-5 text-center lg:text-left pb-10 sm:pb-16 pt-2 relative">
             
             {/* Playful Floating Mini-Badges / Doodles above copy */}
-            <div className="flex items-center justify-center lg:justify-start gap-2.5">
-              <span className="text-xs sm:text-sm font-bold text-slate-500 tracking-wider block uppercase">
-                CRO/PE 9949 · Especialista IMIP
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2">
+              <span className="text-xs sm:text-sm font-bold text-slate-600 tracking-wider block uppercase">
+                CRO/PE 18440 · Odontopediatra em Recife e Região
               </span>
               <span className="inline-flex items-center gap-1 text-[11px] font-bold text-sky-700 bg-sky-100/90 px-2.5 py-0.5 rounded-full border border-sky-200/80 shadow-2xs">
                 <Sparkles className="w-3 h-3 text-sky-500" />
-                Odontopediatria & PNE
+                Bebês, Crianças & PNE
               </span>
             </div>
 
@@ -132,7 +132,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenCalculator }) =>
                 <div className="relative z-10 flex justify-center">
                   <img
                     src="./assets/aistudio/Gemini_Generated_Image_vrczgqvrczgqvrcz_281ea0c9.jpeg"
-                    alt="Dra. Nayanne Gomes Odontopediatra"
+                    alt="Dra. Nayanne Gomes - Odontopediatra e Dentista Infantil em Recife e Região (CRO/PE 18440)"
+                    fetchPriority="high"
                     className="w-full max-w-[230px] sm:max-w-[260px] h-auto object-cover object-top mix-blend-multiply drop-shadow-xs"
                   />
                 </div>
@@ -141,22 +142,22 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenCalculator }) =>
                 <div className="relative z-20 -mt-3 bg-white/95 backdrop-blur-md rounded-2xl p-2.5 shadow-md border border-slate-200/80 text-center space-y-1">
                   <div className="flex items-center justify-center gap-1 text-xs font-black text-slate-800">
                     <span className="text-amber-500">★★★★★</span>
-                    <span>Dra. Nayanne Gomes</span>
+                    <span>Dra. Nayanne Gomes · CRO/PE 18440</span>
                   </div>
                   <p className="text-[11px] font-bold text-rose-600">
-                    Especialista IMIP · Atendimento sem Medo
+                    Especialização pelo IMIP · Atendimento sem Medo
                   </p>
                   <p className="text-[10px] text-slate-500 font-semibold">
-                    📍 Recife · São Lourenço · Jaboatão
+                    📍 Recife · Jaboatão · São Lourenço da Mata
                   </p>
                 </div>
 
               </div>
             </div>
 
-            {/* Subtitle from Reference Image */}
+            {/* Subtitle from Reference Image enriched for Recife & RMR */}
             <p className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed max-w-lg mx-auto lg:mx-0">
-              Atendimento para crianças, pacientes especiais e adultos com medo. Acolhimento, paciência e técnicas para que se sintam tranquilos.
+              Dentista infantil em <strong>Recife, Jaboatão dos Guararapes e São Lourenço da Mata</strong>. Atendimento para bebês, crianças, pacientes especiais (TEA/PNE) e controle do medo com acolhimento, paciência e técnicas seguras.
             </p>
 
             {/* Action Buttons */}
@@ -242,7 +243,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenCalculator }) =>
               {/* Doctor Cutout Photo */}
               <img
                 src="./assets/aistudio/Gemini_Generated_Image_vrczgqvrczgqvrcz_281ea0c9.jpeg"
-                alt="Dra. Nayanne Gomes Odontopediatra IMIP"
+                alt="Dra. Nayanne Gomes - Odontopediatra em Recife, Jaboatão dos Guararapes e São Lourenço da Mata (CRO/PE 18440)"
+                fetchPriority="high"
                 referrerPolicy="no-referrer"
                 className="w-full h-auto object-cover object-top max-h-[500px] sm:max-h-[580px] mix-blend-multiply relative z-10"
               />
