@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: "Nunito", "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-body: "Nunito", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: #2D3748;
+    background-color: #FAF8F5;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.015em;
+  }
+
+  /* Apple-like refined numbers */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle smiling teeth watermark pattern */
+.bg-teeth-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 15 C20 15 15 20 15 28 C15 38 18 52 23 52 C26 52 27 45 30 45 C33 45 34 52 37 52 C42 52 45 38 45 28 C45 20 40 15 35 15 C32 15 31 18 30 18 C29 18 28 15 25 15 Z' fill='none' stroke='%2338BDF8' stroke-width='1.5' stroke-opacity='0.12' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M26 28 Q30 32 34 28' fill='none' stroke='%2338BDF8' stroke-width='1.2' stroke-opacity='0.15' stroke-linecap='round'/%3E%3Ccircle cx='25' cy='24' r='1.2' fill='%2338BDF8' fill-opacity='0.15'/%3E%3Ccircle cx='35' cy='24' r='1.2' fill='%2338BDF8' fill-opacity='0.15'/%3E%3Cpath d='M85 75 C80 75 75 80 75 88 C75 98 78 112 83 112 C86 112 87 105 90 105 C93 105 94 112 97 112 C102 112 105 98 105 88 C105 80 100 75 95 75 C92 75 91 78 90 78 C89 78 88 75 85 75 Z' fill='none' stroke='%2338BDF8' stroke-width='1.5' stroke-opacity='0.12' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M86 88 Q90 92 94 88' fill='none' stroke='%2338BDF8' stroke-width='1.2' stroke-opacity='0.15' stroke-linecap='round'/%3E%3Ccircle cx='85' cy='84' r='1.2' fill='%2338BDF8' fill-opacity='0.15'/%3E%3Ccircle cx='95' cy='84' r='1.2' fill='%2338BDF8' fill-opacity='0.15'/%3E%3Cpolygon points='80,25 82,30 87,31 83,34 84,39 80,36 76,39 77,34 73,31 78,30' fill='%23F472B6' fill-opacity='0.15'/%3E%3Cpolygon points='20,85 22,90 27,91 23,94 24,99 20,96 16,99 17,94 13,91 18,90' fill='%23FBBF24' fill-opacity='0.18'/%3E%3C/svg%3E");
+}
+
+/* Reference Green CTA Button */
+.btn-cta-green {
+  background-color: #44D767;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 9999px;
+  box-shadow: 0 4px 14px 0 rgba(68, 215, 103, 0.38);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-cta-green:hover {
+  background-color: #38C85B;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px 0 rgba(68, 215, 103, 0.45);
+}
+.btn-cta-green:active {
+  transform: translateY(0);
+}
+
+/* Glassmorphism custom design utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(244, 114, 182, 0.1), 0 2px 8px 0 rgba(0, 0, 0, 0.03);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.74);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 36px -4px rgba(236, 72, 153, 0.12), 0 4px 10px -2px rgba(0, 0, 0, 0.02);
+}
+
+.glass-card-elevated {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 20px 48px -10px rgba(244, 114, 182, 0.18), 0 1px 3px 0 rgba(0, 0, 0, 0.04);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.02);
+  letter-spacing: -0.01em;
+}
+
+.glass-pill-active {
+  background: linear-gradient(135deg, rgba(255, 182, 193, 0.95) 0%, rgba(251, 113, 133, 0.9) 100%);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 6px 18px 0 rgba(244, 63, 94, 0.22);
+  color: #0F172A;
+  letter-spacing: -0.015em;
+}
+
+.glass-button-primary {
+  background: linear-gradient(135deg, #FDA4AF 0%, #FB7185 50%, #F43F5E 100%);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 24px -4px rgba(244, 63, 94, 0.38), inset 0 1px 1px 0 rgba(255, 255, 255, 0.6);
+  letter-spacing: -0.015em;
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.88);
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+  letter-spacing: -0.01em;
+}
+
+/* Apple-style refined scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(244, 114, 182, 0.35);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(244, 114, 182, 0.6);
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-area {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    background: #fff !important;
+  }
+}

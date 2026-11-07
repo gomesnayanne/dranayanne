@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora Odontopediatria DR Nayanne",
+  "description": "Calculadora neobrutalista de doses pediátricas, anestésicos locais e gerador de receitas para odontopediatria por Dra. Nayanne.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
